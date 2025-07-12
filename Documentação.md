@@ -96,16 +96,6 @@ r = 1
 
 ---
 
-## 🛠️ Debug
-
-Use o modo debug para acompanhar o processo de transpilação:
-
-```sh
-python BabelCode.py programa.babel --debug
-```
-
----
-
 ## 📦 Estrutura dos Arquivos
 
 - Arquivos BabelLang devem ter a extensão `.babel`.
