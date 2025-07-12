@@ -5,20 +5,19 @@ import random
 # 1. DEFINIÇÃO DOS ALFABETOS
 # =====================
 # Apenas letras realmente usadas nos comandos e que têm sons equivalentes nos alfabetos
-# Comandos usados: v, p, l, i, n, a, d, e, m
-COMMON_LETTERS = "vplinadem"
+# Comandos usados: p, l, i, n, a, d, e, m
+COMMON_LETTERS = "plinadem"
 
 ALPHABETS = {
-    "greek":    dict(zip(COMMON_LETTERS, "υπλιναδεμ")),
-    "cyrillic": dict(zip(COMMON_LETTERS, "вплинadem")),  
-    "hebrew":   dict(zip(COMMON_LETTERS, "ואפלינאדם")),
+    "greek":    dict(zip(COMMON_LETTERS, "πλιναδεμ")),
+    "cyrillic": dict(zip(COMMON_LETTERS, "плинadem")),
+    "hebrew":   dict(zip(COMMON_LETTERS, "פלינאדם")),
 }
 
 # =====================
 # 2. COMANDOS INTERNOS
 # =====================
 COMMANDS = {
-    'v': 'var',     # declaração de variável
     'p': 'print',   # imprime valor
     'l': 'loop',    # while (loop)
     'i': 'if',      # condicional
@@ -105,9 +104,6 @@ def main():
     nome_alfabeto, mapa = random.choice(list(ALPHABETS.items()))
     reverse_map = {v: k for k, v in mapa.items()}
     print(f"[BabelCode] Alfabeto sorteado: {nome_alfabeto.upper()}")
-    #print(f"[BabelCode] Mapeamento de comandos:")
-    #for k, v in mapa.items():
-    #   print(f"  {k} → {v}")
     codigo_python = transpilar(codigo_babel, reverse_map, debug)
     print("\n>>> Código Python gerado:")
     print(codigo_python)
