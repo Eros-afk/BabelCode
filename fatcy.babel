@@ -1,0 +1,6 @@
+x = 5        # var x = 5
+r = 1        # var r = 1
+л x 1        # while x > 1
+    м r x    # r = r * x
+    д x      # x -= 1
+п r          # print r
