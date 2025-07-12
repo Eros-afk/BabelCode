@@ -2,7 +2,8 @@
 # 📚 BabelLang — Documentação Interna
 
 Documentação oficial da **BabelLang**!  
-BabelLang é uma linguagem de programação esotérica, com suporte a múltiplos alfabetos e comandos simples, inspirada na torre de Babel.
+BabelLang é uma linguagem de programação esotérica, com suporte a múltiplos alfabetos e comandos simples, inspirada
+na torre de Babel.
 
 ---
 
