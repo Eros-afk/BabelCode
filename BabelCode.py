@@ -4,14 +4,18 @@ import random
 # =====================
 # 1. DEFINIÇÃO DOS ALFABETOS
 # =====================
-# Apenas letras realmente usadas nos comandos e que têm sons equivalentes nos alfabetos
 # Comandos usados: p, l, i, n, a, d, e, m
 COMMON_LETTERS = "plinadem"
 
 ALPHABETS = {
     "greek":    dict(zip(COMMON_LETTERS, "πλιναδεμ")),
-    "cyrillic": dict(zip(COMMON_LETTERS, "плинadem")),
+    "cyrillic": dict(zip(COMMON_LETTERS, "плинадем")),
     "hebrew":   dict(zip(COMMON_LETTERS, "פלינאדם")),
+    "arabic":   dict(zip(COMMON_LETTERS, "پلينادىم")),   # aproximações fonéticas
+    "devanagari": dict(zip(COMMON_LETTERS, "प्लिनादेम")), # aproximações fonéticas
+    "armenian": dict(zip(COMMON_LETTERS, "պլինադեմ")),    # aproximações fonéticas
+    "georgian": dict(zip(COMMON_LETTERS, "პლინადემ")),    # aproximações fonéticas
+    "thai": dict(zip(COMMON_LETTERS, "ปลินาดเอ็ม")),      # aproximações fonéticas
 }
 
 # =====================
