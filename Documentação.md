@@ -38,7 +38,6 @@ r = 1           # Atribui 1 à variável r
 | μ r x   | Multiplica r por x     | μ r x        | r = r * x             |
 | ε x y   | Condicional (if x==y)  | ε x y        | if x == y:            |
 | n x     | Entrada do usuário     | n x          | x = int(input())      |
-| π       | Fim de bloco           | π            |                       |
 
 > **Nota:** Os símbolos mudam conforme o alfabeto sorteado  
 > (por exemplo: `π` para print no grego, `п` no cirílico, `פ` no hebraico etc).
