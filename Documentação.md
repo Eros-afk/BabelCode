@@ -1,17 +1,14 @@
 ```markdown
 # 📚 BabelLang — Documentação Interna
 
-Bem-vindo à documentação oficial da **BabelLang**!  
-BabelLang é uma linguagem de programação didática e minimalista, com suporte a múltiplos alfabetos e comandos simples.
+Documentação oficial da **BabelLang**!  
+BabelLang é uma linguagem de programação esotérica, com suporte a múltiplos alfabetos e comandos simples, inspirada na torre de Babel.
 
 ---
 
 ## ✨ Visão Geral
 
 - **Extensão dos arquivos:** `.babel`
-- **Execução:**  
-  ```sh
-  python BabelCode.py programa.babel [--debug]
   ```
 - **Alfabetos suportados:**  
   Latino, Grego, Cirílico, Hebraico, Árabe, Devanágari, Armênio, Georgiano, Tailandês
@@ -33,7 +30,6 @@ r = 1           # Atribui 1 à variável r
 
 | Comando | Descrição               | Exemplo      | Python gerado         |
 |---------|------------------------|--------------|-----------------------|
-| ν x 5   | Variável x = 5         | ν x 5        | var x = 5             |
 | π x     | Imprime valor          | π x          | print(x)              |
 | λ x 0   | Enquanto x > 0         | λ x 0        | while x > 0:          |
 | δ x     | Decrementa x           | δ x          | x -= 1                |
@@ -96,7 +92,7 @@ r = 1
 ## ⚠️ Observações
 
 - Indentação é feita por espaços, como em Python.
-- O sinal `=` pode ser usado para atribuição direta, sem comando especial.
+- O sinal `=` é usado para atribuição direta, sem comando especial.
 - Os comandos especiais devem ser escritos com o símbolo do alfabeto sorteado correspondente.
 
 ---
