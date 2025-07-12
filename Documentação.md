@@ -93,7 +93,6 @@ r = 1
 ## ⚠️ Observações
 
 - Indentação é feita por espaços, como em Python.
-- O sinal `=` é usado para atribuição direta, sem comando especial.
 - Os comandos especiais devem ser escritos com o símbolo do alfabeto sorteado correspondente.
 
 ---
