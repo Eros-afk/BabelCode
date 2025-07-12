@@ -1,5 +1,5 @@
 ```markdown
-# 📚 BabelLang — Documentação Interna
+# 📚 BabelLang — Documentação
 
 Documentação oficial da **BabelLang**!  
 BabelLang é uma linguagem de programação esotérica, com suporte a múltiplos alfabetos e comandos simples, inspirada
