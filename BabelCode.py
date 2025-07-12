@@ -105,9 +105,9 @@ def main():
     reverse_map = {v: k for k, v in mapa.items()}
     print(f"[BabelCode] Alfabeto sorteado: {nome_alfabeto.upper()}")
     codigo_python = transpilar(codigo_babel, reverse_map, debug)
-    print("\n>>> Código Python gerado:")
-    print(codigo_python)
-    print("\n>>> Saída da execução:")
+    # print("\n>>> Código Python gerado:")
+    # print(codigo_python)
+    print(">>> Saída da execução:")
     exec(codigo_python)
     print(">>> Fim da execução.\n")
 
