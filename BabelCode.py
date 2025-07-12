@@ -113,7 +113,7 @@ def main():
     print(codigo_python)
     print("\n>>> Saída da execução:")
     exec(codigo_python)
-    print("\n>>> Fim da execução.\n")
+    print(">>> Fim da execução.\n")
 
 if __name__ == "__main__":
     main()

@@ -1,5 +1,5 @@
-ν x 5        # var x = 5
-ν r 1        # var r = 1
+x = 5        # var x = 5
+r = 1        # var r = 1
 λ x 1        # while x > 1
     μ r x    # r = r * x
     δ x      # x -= 1
