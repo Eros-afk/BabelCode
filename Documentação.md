@@ -2,7 +2,6 @@
 # DOCUMENTAÇÃO INTERNA
 # =====================
 
-"""
 Extensão dos arquivos BabelCode: .babel
 
 Comandos suportados:
@@ -23,7 +22,6 @@ Execução:
 
 Debug:
     Use --debug para ver passo a passo da transpilação.
-"""
 
 # BabelLang — Documentação
 
