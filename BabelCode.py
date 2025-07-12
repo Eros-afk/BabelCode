@@ -36,6 +36,11 @@ def transpilar_linha(linha, reverse_map, debug=False):
     linha = linha.split('#')[0].strip()
     if not linha:
         return ""
+    # Se a linha já contém '=', trate como atribuição direta
+    if '=' in linha:
+        if debug:
+            print(f"[TRANSPILE] (direto) {linha}")
+        return linha
     tokens = linha.strip().split(maxsplit=1)
     if not tokens:
         return ""
@@ -49,18 +54,6 @@ def transpilar_linha(linha, reverse_map, debug=False):
         print(f"[DEBUG] cmd_char: {cmd_char}")
     if cmd_char == 'p':
         py = f"print({arg})"
-    elif cmd_char == 'v':
-        parts = arg.split()
-        if len(parts) == 2:
-            var, val = parts
-            if val == 'n':
-                py = f"{var} = int(input())"
-            else:
-                py = f"{var} = {val}"
-        elif len(parts) == 1:
-            py = f"# Erro: declaração de variável sem valor: {arg}"
-        else:
-            py = f"# Erro de sintaxe na declaração: {arg}"
     elif cmd_char == 'a':
         var, val = arg.split()
         py = f"{var} = {var} + {val}"
