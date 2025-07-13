@@ -5,5 +5,5 @@ c = 0         # resultado
 α c a         # c = c + a
 α c b         # c = c + b
 
-ε c 12  # res = c == 12
-π c         # imprime True ou False
+ε c 12        # c == 12
+π c

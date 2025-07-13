@@ -75,7 +75,7 @@ def transpilar_linha(linha, reverse_map, debug=False):
         py = f"{arg} = int(input())"
     elif cmd_char == 'e':
         var, val = arg.split()
-        py = f"if {var} == {val}:"
+        py = f"{var} == {val}"
     else:
         py = f"# Comando desconhecido: {cmd_symbol}"
     if debug:
