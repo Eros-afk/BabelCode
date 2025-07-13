@@ -93,6 +93,7 @@ r = 1
 
 - Indentação é feita por espaços, como em Python.
 - Os comandos especiais devem ser escritos com o símbolo do alfabeto sorteado correspondente.
+- A saída mostrará o código se o alfabeto sorteado estiver correto
 
 ---
 
