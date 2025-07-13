@@ -29,7 +29,7 @@ r = 1           # Atribui 1 à variável r
 
 ### Comandos Especiais (usando símbolo do alfabeto sorteado)
 
-| Comando | Descrição               | Exemplo      | Python gerado         |
+| Comando | Descrição              | Exemplo      | Python gerado         |
 |---------|------------------------|--------------|-----------------------|
 | π x     | Imprime valor          | π x          | print(x)              |
 | λ x 0   | Enquanto x > 0         | λ x 0        | while x > 0:          |
