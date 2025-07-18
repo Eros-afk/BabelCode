@@ -45,6 +45,14 @@ r = 1           # Atribui 1 à variável r
 
 ---
 
+## 📦 Estrutura dos Arquivos
+
+- Arquivos BabelLang devem ter a extensão `.babel`.
+- Exemplo: `meuprograma.babel`
+
+---
+
+
 ## 🚀 Execução
 
 Para executar um programa BabelLang, use:
@@ -90,14 +98,6 @@ r = 1
 - Os comandos especiais devem ser escritos com o símbolo do alfabeto sorteado correspondente.
 - A saída mostrará o código se o alfabeto sorteado estiver correto
 
----
-
-## 📦 Estrutura dos Arquivos
-
-- Arquivos BabelLang devem ter a extensão `.babel`.
-- Exemplo: `meuprograma.babel`
-
----
 
 ## 👀 Observação Final
 
