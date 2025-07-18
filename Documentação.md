@@ -9,12 +9,7 @@ na torre de Babel.
 
 ## ✨ Visão Geral
 
-- **Extensão dos arquivos:** `.babel`
-  ```
-- **Alfabetos suportados:**  
-  Latino, Grego, Cirílico, Hebraico, Árabe, Devanágari, Armênio, Georgiano, Tailandês
-
-> ⚡ O alfabeto é sorteado a cada execução, tornando o código visualmente diferente, mas semanticamente igual.
+O alfabeto é sorteado a cada execução, tornando o código visualmente diferente, mas semanticamente igual.
 
 ---
 
