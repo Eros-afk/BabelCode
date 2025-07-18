@@ -52,7 +52,6 @@ r = 1           # Atribui 1 à variável r
 
 ---
 
-
 ## 🚀 Execução
 
 Para executar um programa BabelLang, use:
@@ -97,6 +96,7 @@ r = 1
 - Indentação é feita por espaços, como em Python.
 - Os comandos especiais devem ser escritos com o símbolo do alfabeto sorteado correspondente.
 - A saída mostrará o código se o alfabeto sorteado estiver correto
+- O BabelCode.py deve estar na mesma pasta do arquivo `.babel`
 
 
 ## 👀 Observação Final
