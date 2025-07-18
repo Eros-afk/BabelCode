@@ -57,7 +57,8 @@ r = 1           # Atribui 1 à variável r
 Para executar um programa BabelLang, use:
 
 ```sh
-python BabelCode.py programa.babel [--debug]
+python BabelCode.py programa.babel [--debug] , no Windows 
+python3 BabelCode.py programa.babel [--debug] , no Linux
 ```
 
 - Use o parâmetro `--debug` para ver o passo a passo da transpilação.
