@@ -101,9 +101,9 @@ O alfabeto é sorteado a cada execução.
 ## ⚠️ Observações
 
 - Indentação é feita por espaços, como em Python.
-- Os comandos especiais devem ser escritos com o símbolo do alfabeto sorteado.
-- O arquivo `BabelCode.py` deve estar na mesma pasta do arquivo `.babel`.
-- A saída mostrará o resultado do código executado.
+- Os comandos especiais devem ser escritos com os símbolos dos alfabetos suportados.
+- O arquivo `BabelCode.py` deve estar na mesma pasta dos arquivos `.babel`.
+- A saída mostrará o resultado do código executado caso o alfabeto usado tenha sido o mesmo do sorteado.
 
 ---
 
