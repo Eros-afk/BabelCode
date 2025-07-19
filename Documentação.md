@@ -95,9 +95,9 @@ r = 1
 ## ⚠️ Observações
 
 - Indentação é feita por espaços, como em Python.
-- Os comandos especiais devem ser escritos com o símbolo do alfabeto sorteado correspondente.
-- A saída mostrará o código se o alfabeto sorteado estiver correto
-- O BabelCode.py deve estar na mesma pasta do arquivo `.babel`
+- Os comandos especiais devem ser escritos com o símbolo dos alfabetos suportados.
+- A saída mostrará o código se o alfabeto sorteado estiver correto.
+- O BabelCode.py deve estar na mesma pasta do arquivo `.babel`.
 
 
 ## 👀 Observação Final
