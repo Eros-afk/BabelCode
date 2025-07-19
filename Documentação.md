@@ -1,15 +1,21 @@
-```markdown
 # 📚 BabelLang — Documentação
 
-Documentação oficial da **BabelLang**!  
-BabelLang é uma linguagem de programação esotérica, com suporte a múltiplos alfabetos e comandos simples, inspirada
-na torre de Babel.
+Documentação oficial da **BabelLang**  
+Uma linguagem esotérica com suporte a múltiplos alfabetos e comandos simples, inspirada na torre de Babel.
 
 ---
 
 ## ✨ Visão Geral
 
-O alfabeto é sorteado a cada execução, tornando o código visualmente diferente, mas semanticamente igual.
+- O alfabeto dos comandos é sorteado a cada execução, tornando o código visualmente diferente, mas semanticamente igual.
+- Ideal para estudar transpilação, internacionalização e criatividade em programação.
+
+---
+
+## 📦 Estrutura dos Arquivos
+
+- Os arquivos BabelLang devem ter a extensão `.babel`.
+- Exemplo: `meuprograma.babel`
 
 ---
 
@@ -31,7 +37,8 @@ r = 1           # Atribui 1 à variável r
 | δ x     | Decrementa x           | δ x          | x -= 1                |
 | α x 1   | Incrementa x           | α x 1        | x = x + 1             |
 | μ r x   | Multiplica r por x     | μ r x        | r = r * x             |
-| ε x y   | Condicional (if x==y)  | ε x y        | if x == y:            |
+| ε x y   | Igualdade (bool)       | ε x y        | x == y                |
+| ι x y   | Condicional (if x==y)  | ι x y        | if x == y:            |
 | n x     | Entrada do usuário     | n x          | x = int(input())      |
 
 > **Nota:** Os símbolos mudam conforme o alfabeto sorteado  
@@ -45,10 +52,16 @@ r = 1           # Atribui 1 à variável r
 
 ---
 
-## 📦 Estrutura dos Arquivos
+## 🧩 Exemplo de Código
 
-- Arquivos BabelLang devem ter a extensão `.babel`.
-- Exemplo: `meuprograma.babel`
+```plaintext
+x = 5
+r = 1
+λ x 1
+    μ r x
+    δ x
+π r
+```
 
 ---
 
@@ -56,9 +69,13 @@ r = 1           # Atribui 1 à variável r
 
 Para executar um programa BabelLang, use:
 
+No Windows:
 ```sh
-python BabelCode.py programa.babel [--debug] , no Windows 
-python3 BabelCode.py programa.babel [--debug] , no Linux
+python BabelCode.py programa.babel [--debug]
+```
+No Linux:
+```sh
+python3 BabelCode.py programa.babel [--debug]
 ```
 
 - Use o parâmetro `--debug` para ver o passo a passo da transpilação.
@@ -77,28 +94,18 @@ python3 BabelCode.py programa.babel [--debug] , no Linux
 - Georgiano
 - Tailandês
 
----
-
-## 🧩 Exemplo de Código
-
-```plaintext
-x = 5
-r = 1
-λ x 1
-    μ r x
-    δ x
-π r
-```
+O alfabeto é sorteado a cada execução.
 
 ---
 
 ## ⚠️ Observações
 
 - Indentação é feita por espaços, como em Python.
-- Os comandos especiais devem ser escritos com o símbolo dos alfabetos suportados.
-- A saída mostrará o código se o alfabeto sorteado estiver correto.
-- O BabelCode.py deve estar na mesma pasta do arquivo `.babel`.
+- Os comandos especiais devem ser escritos com o símbolo do alfabeto sorteado.
+- O arquivo `BabelCode.py` deve estar na mesma pasta do arquivo `.babel`.
+- A saída mostrará o resultado do código executado.
 
+---
 
 ## 👀 Observação Final
 
