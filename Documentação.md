@@ -8,7 +8,6 @@ Uma linguagem esotérica com suporte a múltiplos alfabetos e comandos simples, 
 ## ✨ Visão Geral
 
 - O alfabeto dos comandos é sorteado a cada execução, tornando o código visualmente diferente, mas semanticamente igual.
-- Ideal para estudar transpilação, internacionalização e criatividade em programação.
 
 ---
 
@@ -81,6 +80,7 @@ python3 BabelCode.py programa.babel [--debug]
 - Substitua o nome "programa" pelo nome do arquivo.
 - Use o parâmetro `--debug` para ver o passo a passo da transpilação.
 - O uso do parâmetro `--debug` não é obrigatório.
+- O alfabeto sorteado na execução pode ser diferente do utilizado na criação do código, portanto tente executar novamente até que coincidam.
 
 ---
 
@@ -95,8 +95,6 @@ python3 BabelCode.py programa.babel [--debug]
 - Armênio
 - Georgiano
 - Tailandês
-
-O alfabeto é sorteado a cada execução.
 
 ---
 
