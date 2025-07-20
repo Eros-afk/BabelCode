@@ -14,7 +14,7 @@ Uma linguagem esotérica com suporte a múltiplos alfabetos e comandos simples, 
 ## 📦 Estrutura dos Arquivos
 
 - Os arquivos BabelLang devem ter a extensão `.babel`.
-- Exemplo: `meuprograma.babel`
+- Exemplo: `meuprograma.babel`.
 
 ---
 
