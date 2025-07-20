@@ -78,7 +78,9 @@ No Linux:
 python3 BabelCode.py programa.babel [--debug]
 ```
 
+- Substitua o nome "programa" pelo nome do arquivo.
 - Use o parâmetro `--debug` para ver o passo a passo da transpilação.
+- O uso do parâmetro `--debug` não é obrigatório.
 
 ---
 
